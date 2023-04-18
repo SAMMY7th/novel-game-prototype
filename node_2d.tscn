@@ -1,32 +1,38 @@
-[gd_scene load_steps=3 format=3 uid="uid://d3034trwnxopb"]
+[gd_scene load_steps=4 format=3 uid="uid://d3034trwnxopb"]
 
 [ext_resource type="Texture2D" uid="uid://bnxw2jidivmqw" path="res://assets/images/backgrounds/background1.jpeg" id="1_00auv"]
+[ext_resource type="Script" path="res://node_2d.gd" id="1_e3wo1"]
 [ext_resource type="Texture2D" uid="uid://bvsbp3e7mbwem" path="res://assets/images/characters/youngman_25.png" id="2_h31w3"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_e3wo1")
 
-[node name="background" type="Sprite2D" parent="."]
-position = Vector2(2681, 1090)
-scale = Vector2(1.66518, 1.51323)
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="background" type="Sprite2D" parent="Control"]
+position = Vector2(620, 320)
+scale = Vector2(0.310268, 0.253637)
 texture = ExtResource("1_00auv")
 
-[node name="character" type="Sprite2D" parent="."]
-position = Vector2(2706, 1126)
-scale = Vector2(2.77241, 2.72281)
+[node name="character" type="Sprite2D" parent="Control"]
+position = Vector2(636, 154)
+scale = Vector2(0.519112, 0.509825)
 texture = ExtResource("2_h31w3")
 
-[node name="Button" type="Button" parent="."]
-offset_left = -443.0
-offset_top = 1723.0
-offset_right = -387.0
-offset_bottom = 1754.0
-text = "ボタン"
-
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-offset_left = -632.0
-offset_top = 2183.0
-offset_right = 5575.0
-offset_bottom = 3331.0
+[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
+offset_left = 37.0
+offset_top = 340.0
+offset_right = 1211.0
+offset_bottom = 544.0
 text = "あいうえお
 
 かきくけこ"
+
+[node name="ChoiceContainer" type="VBoxContainer" parent="Control"]
+layout_mode = 1
+offset_left = 47.0
+offset_top = 602.0
+offset_right = 1235.0
+offset_bottom = 696.0

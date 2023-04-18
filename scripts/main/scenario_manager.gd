@@ -1,11 +1,18 @@
 extends Node
 
+var scenario_data = null
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+func load_scenario(path):
+	var file = FileAccess.open(path, FileAccess.READ)
+	if file != null:
+		var json_text = file.get_as_text()
 
+		scenario_data = JSON.parse_string(json_text)
+	else:
+		print("Failed to load scenario file.")
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+func get_scene_by_id(scene_id):
+	for scene in scenario_data.scenes:
+		if scene.id == scene_id:
+			return scene
+	return null
