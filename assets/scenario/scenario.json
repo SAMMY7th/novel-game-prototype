@@ -360,7 +360,7 @@
 	  "background": "res://assets/images/backgrounds/sunset_school.png",
 	  "characters": [],
 	  "bgm": "res://assets/audio/bgm/ending_theme.ogg",
-	  "text": "制作: カズキとユウキの笑える物語製作委員会\n\nプロデューサー: 言語モデル\n\n脚本: 言語モデル\n\n音楽: 言語モデル\n\nデザイン: 言語モデル\n\nありがとう、言語モデル。",
+	  "text": "制作: カズキとユウキの笑える物語製作委員会\n\nプロデューサー: 言語モデル\n\n脚本: 言語モデル\n\n音楽: 魔王魂(https://maou.audio/)\n\nデザイン: 言語モデル\n\nありがとう、言語モデル。",
 	  "choices": [
 		{
 		  "text": "終わる",
