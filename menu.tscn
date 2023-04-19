@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dxl0mo78oaup6"]
+[gd_scene load_steps=4 format=3 uid="uid://dxl0mo78oaup6"]
 
 [ext_resource type="Texture2D" uid="uid://c562wc477a1j0" path="res://assets/images/backgrounds/menu.png" id="1_ixltl"]
 [ext_resource type="Script" path="res://NewGameButton.gd" id="2_kvjdp"]
+[ext_resource type="AudioStream" uid="uid://c74tt0lsmc6yl" path="res://assets/audio/bgm/street_theme.ogg" id="3_sxerw"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("2_kvjdp")
@@ -35,3 +36,8 @@ metadata/_edit_use_anchors_ = true
 layout_mode = 2
 theme_override_font_sizes/font_size = 36
 text = "New Game"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("3_sxerw")
+volume_db = -10.511
+autoplay = true
