@@ -53,7 +53,10 @@ func display_scene(scene_id):
 		print("Invalid scene ID: ", scene_id)
 
 func _on_choice_pressed(next_scene_id):
-	display_scene(next_scene_id)
+	if str(next_scene_id) == "exit":
+		get_tree().change_scene_to_file("res://menu.tscn")  # メニューシーンへ遷移
+	else:
+		display_scene(next_scene_id)
 
 func set_background(background_path):
 	background_sprite.texture = load(background_path)

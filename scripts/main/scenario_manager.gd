@@ -1,4 +1,4 @@
-extends Node
+extends Node2D
 
 var scenario_data = null
 
@@ -11,8 +11,9 @@ func load_scenario(path):
 	else:
 		print("Failed to load scenario file.")
 
-func get_scene_by_id(scene_id):
+func get_scene_by_id(scene_id):	
 	for scene in scenario_data.scenes:
 		if str(scene.id) == str(scene_id):
 			return scene
 	return null
+	
