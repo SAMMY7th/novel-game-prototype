@@ -31,9 +31,11 @@ func display_scene(scene_id):
 		if bgm_player.stream != null and bgm_player.stream.resource_path != scene_data.bgm:
 			bgm_player.stop()
 			bgm_player.stream = load(scene_data.bgm)
+			bgm_player.volume_db = -10
 			bgm_player.play()
 		elif bgm_player.stream == null and scene_data.bgm != "":
 			bgm_player.stream = load(scene_data.bgm)
+			bgm_player.volume_db = -10
 			bgm_player.play()
 
 		# Clear existing choices
