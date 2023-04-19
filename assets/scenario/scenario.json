@@ -1,102 +1,372 @@
 {
-	"scenes": [
+  "scenes": [
+	{
+	  "id": 1,
+	  "background": "res://assets/images/backgrounds/school_gate.png",
+	  "characters": [
 		{
-			"id": 1,
-			"text": "シーン1のテキスト",
-			"choices": [
-				{
-					"text": "選択肢1",
-					"next": 2
-				},
-				{
-					"text": "選択肢2",
-					"next": 3
-				}
-			],
-			"background": "res://assets/images/backgrounds/background1.jpeg",
-			"characters": [
-			  {
-				"name": "youngman_25.png",
-				"image": "res://assets/images/characters/youngman_25.png",
-				"position": "left"
-			  }
-			],
-			"bgm": "res://assets/audio/bgm/maou_bgm_acoustic53.ogg"
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_happy.png",
+		  "position": "left"
 		},
 		{
-			"id": 2,
-			"text": "シーン2のテキスト",
-			"choices": [
-				{
-					"text": "選択肢2の1",
-					"next": 2
-				},
-				{
-					"text": "選択肢２の2",
-					"next": 3
-				}
-			],
-			"background": "res://assets/images/backgrounds/background2.jpeg",
-			"characters": [
-			  {
-				"name": "youngman_25.png",
-				"image": "res://assets/images/characters/youngman_25.png",
-				"position": "right"
-			  },
-			  {
-				"name": "youngwoman_39",
-				"image": "res://assets/images/characters/youngwoman_39.png",
-				"position": "left"
-			  }
-			],
-			"bgm": "res://assets/audio/bgm/maou_bgm_acoustic53.ogg"
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_smile.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/morning_theme.ogg",
+	  "text": "学校の朝、主人公であるカズキは友達のユウキと出くわした。ユウキはいつものように魅力的な笑顔でカズキに手を振る。カズキはユウキに近づくと、彼が持っている巨大なサンドイッチに目が行く。\n\nそのサンドイッチは、学校の前の屋台で売られている有名な「究極の朝食サンドイッチ」だ。",
+	  "choices": [
+		{
+		  "text": "サンドイッチを一緒に食べる",
+		  "next": 2
 		},
 		{
-			"id": 3,
-			"text": "シーン3のテキスト",
-			"choices": [
-				{
-					"text": "次へ",
-					"next": 2
-				},
-			],
-			"background": "res://assets/images/backgrounds/background2.jpeg",
-			"characters": [
-			  {
-				"name": "youngman_25.png",
-				"image": "res://assets/images/characters/youngman_25.png",
-				"position": "right"
-			  },
-			  {
-				"name": "youngwoman_39",
-				"image": "res://assets/images/characters/youngwoman_39.png",
-				"position": "left"
-			  }
-			],
-			"bgm": "res://assets/audio/bgm/maou_bgm_acoustic54.ogg"
+		  "text": "遠慮してサンドイッチを断る",
+		  "next": 3
+		}
+	  ]
+	},
+	{
+	  "id": 2,
+	  "background": "res://assets/images/backgrounds/classroom.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_laughing.png",
+		  "position": "left"
 		},
-				{
-			"id": 4,
-			"text": "シーン1のテキスト",
-			"choices": [
-				{
-					"text": "選択肢1",
-					"next": 2
-				},
-				{
-					"text": "選択肢2",
-					"next": 3
-				}
-			],
-			"background": "res://assets/images/backgrounds/background1.jpeg",
-			"characters": [
-			  {
-				"name": "youngman_25.png",
-				"image": "res://assets/images/characters/youngman_25.png",
-				"position": "left"
-			  }
-			],
-			"bgm": "res://assets/audio/bgm/maou_bgm_acoustic53.ogg"
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_excited.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/morning_theme.ogg",
+	  "text": "カズキはユウキと一緒にサンドイッチを食べることにした。ふたりは学校の中庭で美味しそうにサンドイッチを食べ始める。\n\n突然、ユウキがサンドイッチを食べながら言った。「おい、カズキ。これがうわさのドイッチサンドイッチかもしれないぞ！」カズキは驚いてユウキに尋ねる。「え？それってどういうこと？」ユウキは笑いながら答える。「伝説のドイッチが作るサンドイッチを食べると、一日中幸運が続くって話だよ。さっきの屋台で買ったサンドイッチが、まさかのドイッチサンドイッチだったなんて信じられる？」カズキは興味津々で聞いていたが、内心は半信半疑だった。しかし、その日の二人は何だかんだで運が良かった。",
+	  "choices": [
+		{
+		  "text": "ドイッチサンドイッチの効果を信じる",
+		  "next": 4
 		},
-	]
+		{
+		  "text": "単なる偶然だと思う",
+		  "next": 5
+		}
+	  ]
+	},
+	{
+	  "id": 3,
+	  "background": "res://assets/images/backgrounds/classroom.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_annoyed.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_sad.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/morning_theme.ogg",
+	  "text": "カズキは遠慮してサンドイッチを断った。その結果、ユウキはちょっとがっかりした顔をしていたが、それでもカズキと一緒に教室へ向かった。そして、二人はその日の授業を楽しんだ。放課後、ユウキはカズキに話しかける。「今度は絶対にサンドイッチを食べようぜ！もしかしたら、ドイッチサンドイッチだったかもしれないんだから。」",
+	  "choices": [
+		{
+		  "text": "次回は一緒に食べることを約束する",
+		  "next": 6
+		},
+		{
+		  "text": "また遠慮する",
+		  "next": 7
+		}
+	  ]
+	},
+	{
+	  "id": 4,
+	  "background": "res://assets/images/backgrounds/street.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_laughing.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_happy.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/street_theme.ogg",
+	  "text": "カズキとユウキは街中でドイッチサンドイッチの効果を語り合いながら楽しく過ごしていた。そんな中、ふと気づくと、彼らの前にドイッチが現れた。ドイッチは二人に向かって、新たなサンドイッチの開発に協力してくれるかどうかを尋ねた。驚くカズキとユウキだが、冒険心にあふれた二人は、新しいサンドイッチの開発に協力することを決める。",
+	  "choices": [
+		{
+		  "text": "ドイッチと一緒にサンドイッチ作りに挑戦する",
+		  "next": 8
+		},
+		{
+		  "text": "今回は断る",
+		  "next": 9
+		}
+	  ]
+	},
+	{
+	  "id": 5,
+	  "background": "res://assets/images/backgrounds/home.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_smile.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_studying.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/home_theme.ogg",
+	  "text": "カズキとユウキは、ドイッチサンドイッチの効果はただの偶然だと思い、家で勉強をすることに決めた。二人はテスト勉強に励むが、ちょっとしたことで笑い合いながら楽しく過ごす。その日の夜、カズキは寝る前に思い出す。ドイッチサンドイッチの効果は偶然だったのかもしれないが、仲の良い友達と一緒に過ごすことが、結局最高の幸運だと。",
+	  "choices": [
+		{
+		  "text": "友達と過ごす時間を大切にする",
+		  "next": 10
+		}
+	  ]
+	},
+	{
+	  "id": 6,
+	  "background": "res://assets/images/backgrounds/sunset_school.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_sad.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_sad.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/ending_theme.ogg",
+	  "text": "カズキとユウキは、ドイッチサンドイッチの効果が終わり、ちょっぴり寂しく感じていた。夕暮れ時の学校で、二人は思い出話に花を咲かせる。そして、この経験を通じて、友情がさらに深まったことに気づく。カズキはユウキに感謝の言葉を伝え、ユウキも笑顔で答える。二人は、これからも一緒に笑いながら過ごすことを誓い合った。",
+	  "choices": [
+		{
+		  "text": "友達と共に未来へ進む",
+		  "next": 11
+		}
+	  ]
+	},
+	{
+	  "id": 7,
+	  "background": "res://assets/images/backgrounds/home.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_annoyed.png",
+		  "position": "left"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/home_theme.ogg",
+	  "text": "カズキはユウキとの出来事に少しイライラしていた。しかし、彼はこの経験から学んだことがあると気づく。どんなに厄介な状況でも、友達と一緒なら楽しい時間を過ごせること。カズキは、これからも友達と一緒に笑い合いながら過ごすことを決める。",
+	  "choices": [
+		{
+		  "text": "友達と共に前向きに進む",
+		  "next": 12
+		}
+	  ]
+	},
+	{
+	  "id": 8,
+	  "background": "res://assets/images/backgrounds/school_gate.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_happy.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_happy.png",
+		  "position": "right"
+		},
+		{
+		  "name": "doitchi",
+		  "image": "res://assets/images/characters/doitchi_smile.png",
+		  "position": "center"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/fun_theme.ogg",
+	  "text": "カズキとユウキはドイッチと一緒に新しいサンドイッチの開発に挑戦することに決めた。三人は学校のキッチンで、さまざまな材料を使って次々と新しいサンドイッチを作り出す。その中でも特においしいサンドイッチができたとき、カズキとユウキはドイッチに感謝の言葉を伝える。ドイッチも笑顔で答え、三人の友情はさらに深まる。",
+	  "choices": [
+		{
+		  "text": "友達と一緒に新しい冒険に挑む",
+		  "next": 13
+		}
+	  ]
+	},
+	{
+	  "id": 9,
+	  "background": "res://assets/images/backgrounds/classroom.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_studying.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_studying.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/study_theme.ogg",
+	  "text": "カズキとユウキは、今回はドイッチとのサンドイッチ開発に協力しないことに決めた。代わりに、二人は勉強に励むことにし、共に学業成績を伸ばしていく。それでも、二人は休憩時間に楽しく過ごすことができ、友達との絆を深める。",
+	  "choices": [
+		{
+		  "text": "友達と一緒に勉強に励む",
+		  "next": 14
+		}
+	  ]
+	},
+	{
+	  "id": 10,
+	  "background": "res://assets/images/backgrounds/home.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_smile.png",
+		  "position": "left"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/ending_theme.ogg",
+	  "text": "カズキは友達と過ごす時間を大切にすることに決めた。これからも一緒に笑い合いながら楽しい時間を過ごすことを誓い合った。そして、友達との絆を大切にしながら、共に学業や趣味に励む日々が続く。カズキは、これからも友達と一緒に素晴らしい思い出を作っていくことを夢見ていた。",
+	  "choices": [
+		{
+		  "text": "友達と共に素晴らしい思い出を作る",
+		  "next": "end"
+		}
+	  ]
+	},
+	{
+	  "id": 11,
+	  "background": "res://assets/images/backgrounds/street.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_happy.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_happy.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/street_theme.ogg",
+	  "text": "カズキとユウキは、友達と共に未来へ進むことを決めた。二人は街中で楽しく過ごし、新しい出会いや体験を楽しむ。そして、友達との絆を大切にしながら、さらに充実した日々を過ごすことができた。カズキは、これからも友達と一緒に素晴らしい未来を築いていくことを夢見ていた。",
+	  "choices": [
+		{
+		  "text": "友達と共に充実した未来を築く",
+		  "next": "end"
+		}
+	  ]
+	},
+	{
+	  "id": 12,
+	  "background": "res://assets/images/backgrounds/home.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_smile.png",
+		  "position": "left"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/home_theme.ogg",
+	  "text": "カズキは、これからも友達と一緒に素晴らしい未来を築いていくことを夢見ていた。家で過ごす時間も楽しく、友達との絆を大切にすることを忘れない。そして、共に学業や趣味に励むことで、さらに充実した日々が続いた。",
+	  "choices": [
+		{
+		  "text": "家族や友達と共に幸せな時間を過ごす",
+		  "next": "end"
+		}
+	  ]
+	},
+	{
+	  "id": 13,
+	  "background": "res://assets/images/backgrounds/sunset_school.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_laughing.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_laughing.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/ending_theme.ogg",
+	  "text": "カズキとユウキは、新しい冒険に挑んで充実した日々を送った。ドイッチとのサンドイッチ開発を通じて、二人はさらに親密になり、友達との絆が深まった。夕暮れ時の学校を見つめながら、カズキとユウキはこれからも友達と共に楽しい時間を過ごしていくことを決めた。",
+	  "choices": [
+		{
+		  "text": "友達と共に楽しい思い出を作り続ける",
+		  "next": "end"
+		}
+	  ]
+	},
+	{
+	  "id": 14,
+	  "background": "res://assets/images/backgrounds/sunset_school.png",
+	  "characters": [
+		{
+		  "name": "kazuki",
+		  "image": "res://assets/images/characters/kazuki_smile.png",
+		  "position": "left"
+		},
+		{
+		  "name": "yuuki",
+		  "image": "res://assets/images/characters/yuuki_smile.png",
+		  "position": "right"
+		}
+	  ],
+	  "bgm": "res://assets/audio/bgm/ending_theme.ogg",
+	  "text": "カズキとユウキはこれからも友達と共に頑張っていくことを決めた。夕暮れ時の学校を見つめながら、二人は勉強だけでなく、友達との絆や楽しい思い出を大切にしながら、未来に向かって進んでいくことを誓い合った。",
+	  "choices": [
+		{
+		  "text": "友達と共に勉強し、未来に向かって進む",
+		  "next": "end"
+		}
+	  ]
+	},
+	{
+	  "id": "end",
+	  "background": "res://assets/images/backgrounds/sunset_school.png",
+	  "characters": [],
+	  "bgm": "res://assets/audio/bgm/ending_theme.ogg",
+	  "text": "カズキとユウキの物語は、これからも続いていく。友達と共に楽しい時間を過ごし、勉強に励み、新しい冒険に挑む彼らの未来は、どんなものになるのか…。それは、また別の物語の始まりである。",
+	  "choices": [
+		{
+		  "text": "物語の終わり",
+		  "next": "credits"
+		}
+	  ]
+	},
+	{
+	  "id": "credits",
+	  "background": "res://assets/images/backgrounds/sunset_school.png",
+	  "characters": [],
+	  "bgm": "res://assets/audio/bgm/ending_theme.ogg",
+	  "text": "制作: カズキとユウキの笑える物語製作委員会\n\nプロデューサー: 言語モデル\n\n脚本: 言語モデル\n\n音楽: 言語モデル\n\nデザイン: 言語モデル\n\nありがとう、言語モデル。",
+	  "choices": [
+		{
+		  "text": "終わる",
+		  "next": "exit"
+		}
+	  ]
+	}
+  ]
 }

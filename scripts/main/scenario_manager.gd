@@ -13,6 +13,6 @@ func load_scenario(path):
 
 func get_scene_by_id(scene_id):
 	for scene in scenario_data.scenes:
-		if scene.id == scene_id:
+		if str(scene.id) == str(scene_id):
 			return scene
 	return null

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvsbp3e7mbwem"
-path="res://.godot/imported/youngman_25.png-9b600b2a885de9c3eb0eb607bcac6dc0.ctex"
+uid="uid://6yeb4qcrgexn"
+path="res://.godot/imported/classroom.png-3669f7b3c3c28a9241a228aad61cea10.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/characters/youngman_25.png"
-dest_files=["res://.godot/imported/youngman_25.png-9b600b2a885de9c3eb0eb607bcac6dc0.ctex"]
+source_file="res://assets/images/backgrounds/classroom.png"
+dest_files=["res://.godot/imported/classroom.png-3669f7b3c3c28a9241a228aad61cea10.ctex"]
 
 [params]
 

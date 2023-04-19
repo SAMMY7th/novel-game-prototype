@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8yibhjn86vx6"
-path="res://.godot/imported/background2.jpeg-dec7c4c4f2e4bb0ed1328f760074d9d3.ctex"
+uid="uid://c0dcrkcuqvrf1"
+path="res://.godot/imported/yuuki_smile.png-e7e85d0d3c89e094d38e3eef0e56e8db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/backgrounds/background2.jpeg"
-dest_files=["res://.godot/imported/background2.jpeg-dec7c4c4f2e4bb0ed1328f760074d9d3.ctex"]
+source_file="res://assets/images/characters/yuuki_smile.png"
+dest_files=["res://.godot/imported/yuuki_smile.png-e7e85d0d3c89e094d38e3eef0e56e8db.ctex"]
 
 [params]
 

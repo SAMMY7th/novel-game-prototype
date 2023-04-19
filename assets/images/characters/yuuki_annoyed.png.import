@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnxw2jidivmqw"
-path="res://.godot/imported/background1.jpeg-c8c554d322fc6e4f9b040be12cd60922.ctex"
+uid="uid://bbji5ge265rcu"
+path="res://.godot/imported/yuuki_annoyed.png-e86d8256f586bdef8b210c2a0013ddb9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/backgrounds/background1.jpeg"
-dest_files=["res://.godot/imported/background1.jpeg-c8c554d322fc6e4f9b040be12cd60922.ctex"]
+source_file="res://assets/images/characters/yuuki_annoyed.png"
+dest_files=["res://.godot/imported/yuuki_annoyed.png-e86d8256f586bdef8b210c2a0013ddb9.ctex"]
 
 [params]
 
