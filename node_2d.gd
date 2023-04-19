@@ -20,7 +20,7 @@ func display_scene(scene_id):
 		text_box.bbcode_text = scene_data.text
 		
 		# Update background
-		background_sprite.texture = load(scene_data.background)
+		set_background(scene_data.background)
 
 		# Update characters
 		character_container.remove_all_characters()
@@ -52,3 +52,22 @@ func display_scene(scene_id):
 
 func _on_choice_pressed(next_scene_id):
 	display_scene(next_scene_id)
+
+func set_background(background_path):
+	background_sprite.texture = load(background_path)
+	
+	# Get the window size
+	var window_size = DisplayServer.window_get_size()
+	
+	# Calculate the scale factors
+	var scale_x = float(window_size.x) / background_sprite.texture.get_width()
+	var scale_y = float(window_size.y) / background_sprite.texture.get_height()
+	
+	# Set the scale to fit the window size
+	background_sprite.scale = Vector2(scale_x, scale_y)
+	
+	# Set the position to the center of the window
+	background_sprite.position = window_size / 2
+	
+	add_child(background_sprite)
+	

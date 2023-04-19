@@ -13,11 +13,20 @@ anchors_preset = 0
 [node name="Background" type="Sprite2D" parent="Control"]
 position = Vector2(2.08165e-12, 2.08165e-12)
 
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 331.0
+offset_right = 1274.0
+offset_bottom = 609.0
+color = Color(0.4, 0.4, 0.4, 0.717647)
+
 [node name="RichTextLabel" type="RichTextLabel" parent="Control"]
 offset_left = 37.0
 offset_top = 340.0
 offset_right = 1211.0
 offset_bottom = 544.0
+theme_override_font_sizes/normal_font_size = 24
 text = "あいうえお
 
 かきくけこ"
