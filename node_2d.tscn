@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://d3034trwnxopb"]
+[gd_scene load_steps=3 format=3 uid="uid://d3034trwnxopb"]
 
-[ext_resource type="Texture2D" uid="uid://bnxw2jidivmqw" path="res://assets/images/backgrounds/background1.jpeg" id="1_00auv"]
 [ext_resource type="Script" path="res://node_2d.gd" id="1_e3wo1"]
-[ext_resource type="Texture2D" uid="uid://bvsbp3e7mbwem" path="res://assets/images/characters/youngman_25.png" id="2_h31w3"]
+[ext_resource type="Script" path="res://CharacterContainer.gd" id="3_80gcj"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_e3wo1")
@@ -11,15 +10,8 @@ script = ExtResource("1_e3wo1")
 layout_mode = 3
 anchors_preset = 0
 
-[node name="background" type="Sprite2D" parent="Control"]
-position = Vector2(620, 320)
-scale = Vector2(0.310268, 0.253637)
-texture = ExtResource("1_00auv")
-
-[node name="character" type="Sprite2D" parent="Control"]
-position = Vector2(636, 154)
-scale = Vector2(0.519112, 0.509825)
-texture = ExtResource("2_h31w3")
+[node name="Background" type="Sprite2D" parent="Control"]
+position = Vector2(2.08165e-12, 2.08165e-12)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Control"]
 offset_left = 37.0
@@ -36,3 +28,8 @@ offset_left = 47.0
 offset_top = 602.0
 offset_right = 1235.0
 offset_bottom = 696.0
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Control"]
+
+[node name="CharacterContainer" type="Node2D" parent="Control"]
+script = ExtResource("3_80gcj")

@@ -12,21 +12,44 @@
 					"text": "選択肢2",
 					"next": 3
 				}
-			]
+			],
+			"background": "res://assets/images/backgrounds/background1.jpeg",
+			"characters": [
+			  {
+				"name": "youngman_25.png",
+				"image": "res://assets/images/characters/youngman_25.png",
+				"position": "left"
+			  }
+			],
+			"bgm": "res://assets/audio/bgm/maou_bgm_acoustic53.ogg"
 		},
 		{
 			"id": 2,
 			"text": "シーン2のテキスト",
 			"choices": [
-								{
+				{
 					"text": "選択肢2の1",
 					"next": 2
 				},
 				{
-					"text": "選択肢2の2",
+					"text": "選択肢２の2",
 					"next": 3
 				}
-			]
+			],
+			"background": "res://assets/images/backgrounds/background2.jpeg",
+			"characters": [
+			  {
+				"name": "youngman_25.png",
+				"image": "res://assets/images/characters/youngman_25.png",
+				"position": "right"
+			  },
+			  {
+				"name": "youngwoman_39",
+				"image": "res://assets/images/characters/youngwoman_39.png",
+				"position": "left"
+			  }
+			],
+			"bgm": "res://assets/audio/bgm/maou_bgm_acoustic53.ogg"
 		},
 		{
 			"id": 3,
@@ -36,7 +59,44 @@
 					"text": "次へ",
 					"next": 2
 				},
-			]
-		}
+			],
+			"background": "res://assets/images/backgrounds/background2.jpeg",
+			"characters": [
+			  {
+				"name": "youngman_25.png",
+				"image": "res://assets/images/characters/youngman_25.png",
+				"position": "right"
+			  },
+			  {
+				"name": "youngwoman_39",
+				"image": "res://assets/images/characters/youngwoman_39.png",
+				"position": "left"
+			  }
+			],
+			"bgm": "res://assets/audio/bgm/maou_bgm_acoustic54.ogg"
+		},
+				{
+			"id": 4,
+			"text": "シーン1のテキスト",
+			"choices": [
+				{
+					"text": "選択肢1",
+					"next": 2
+				},
+				{
+					"text": "選択肢2",
+					"next": 3
+				}
+			],
+			"background": "res://assets/images/backgrounds/background1.jpeg",
+			"characters": [
+			  {
+				"name": "youngman_25.png",
+				"image": "res://assets/images/characters/youngman_25.png",
+				"position": "left"
+			  }
+			],
+			"bgm": "res://assets/audio/bgm/maou_bgm_acoustic53.ogg"
+		},
 	]
 }
