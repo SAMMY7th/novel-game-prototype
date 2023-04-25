@@ -46,6 +46,7 @@ func display_scene(scene_id):
 		for choice in scene_data.choices:
 			var choice_button = Button.new()
 			choice_button.text = choice.text
+			set_custom_font(choice_button, "res://assets/fonts/mplus-1c-regular.ttf", 24)
 			var callback = Callable(self, "_on_choice_pressed").bind(choice.next)
 			choice_button.connect("pressed", callback)
 			choice_container.add_child(choice_button)
@@ -75,4 +76,9 @@ func set_background(background_path):
 	background_sprite.position = window_size / 2
 	
 	add_child(background_sprite)
+	
+func set_custom_font(node, font_path, font_size):	
+	var f = load(font_path)
+	node.add_theme_font_override("font", f)
+	node.add_theme_font_size_override("font_size", font_size)
 	

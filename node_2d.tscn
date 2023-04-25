@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://d3034trwnxopb"]
+[gd_scene load_steps=4 format=3 uid="uid://d3034trwnxopb"]
 
 [ext_resource type="Script" path="res://node_2d.gd" id="1_e3wo1"]
+[ext_resource type="FontFile" uid="uid://d3en7n0dtlp8" path="res://assets/fonts/mplus-1c-regular.ttf" id="2_tigoa"]
 [ext_resource type="Script" path="res://CharacterContainer.gd" id="3_80gcj"]
 
 [node name="Node2D" type="Node2D"]
@@ -27,6 +28,7 @@ offset_left = 37.0
 offset_top = 340.0
 offset_right = 1211.0
 offset_bottom = 544.0
+theme_override_fonts/normal_font = ExtResource("2_tigoa")
 theme_override_font_sizes/normal_font_size = 24
 text = "あいうえお
 
