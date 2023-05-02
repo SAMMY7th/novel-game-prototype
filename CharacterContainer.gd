@@ -6,7 +6,7 @@ func add_character(character_data):
 	character_sprite.name = character_data.name
 	
 	# Configure character size
-	character_sprite.scale = Vector2(0.3, 0.3)  # Adjust the scale as needed
+	character_sprite.scale = Vector2(1, 1)  # Adjust the scale as needed
 	
 	# Configure character position
 	if character_data.position == "left":
